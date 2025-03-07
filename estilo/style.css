@@ -106,12 +106,12 @@ section#nor02 {
 
 section#nor03 {
     background-image: url(../imagens/Roronoa\ Zoro.png);
-    background-position: center center;
+    background-position: right center;
 }
 
 section#nor04 {
     background-image: url(../imagens/Silvers\ Rayleigh.jpg);
-    background-position: center center;
+    background-position: left center;
 }
 
 section#nor05 {
@@ -150,8 +150,8 @@ section#esp05 {
 }
 
 section#esp06 {
-    background-image: url(../imagens/Nezuko\ Kamado.jpg);
-    background-position: center center;
+    background-image: url(../imagens/Nezuko\ Kamado.webp);
+    background-position: right top;
 }
 
 footer {
