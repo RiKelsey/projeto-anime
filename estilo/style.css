@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte1: verdana, geneva, tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+    
+}
+
+a {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.8vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+    text-indent: 38px;
+}
+
+section.normal {
+    background-color: rgba(255, 255, 255, 0.986);
+    color: rgb(255, 255, 255);
+    box-shadow: inset 8px 8px 8px rgba(0, 0, 0, 0.388);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.normal > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.164);
+    padding: 5px;
+    text-shadow: 2px 2px 2px black;
+}
+
+section.especial {
+    background-color: rgb(37, 7, 211);
+    color: rgb(255, 255, 255);
+    box-shadow: inset 8px 8px 8px rgba(0, 0, 0, 0.388);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.especial > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 5px;
+    text-shadow: 2px 2px 2px black;
+}
+
+section#nor01 {
+    background-image: url(../imagens/Chrollo\ Lucilfer.png);
+    background-position: right center;
+}
+
+section#nor02 {
+    background-image: url(../imagens/Isla.jpg);
+    background-position: right center;
+}
+
+section#nor03 {
+    background-image: url(../imagens/Roronoa\ Zoro.png);
+    background-position: right center;
+}
+
+section#nor04 {
+    background-image: url(../imagens/Silvers\ Rayleigh.jpg);
+    background-position: right center;
+}
+
+section#nor05 {
+    background-image: url(../imagens/Suguru\ Geto.jpg);
+    background-position: right center;
+}
+
+section#nor06 {
+    background-image: url(../imagens/Rengoku\ Kyojuro.png);
+    background-position: right center;
+}
+
+section#esp01 {
+    background-image: url(../imagens/Isaac\ Netero.webp);
+    background-position: right center;
+}
+
+section#esp02 {
+    background-image: url(../imagens/Lelouch\ vi\ Britannia.webp);
+    background-position: right center;
+}
+
+section#esp03 {
+    background-image: url(../imagens/Dr.\ Hiluluk.jpg);
+    background-position: right center;
+}
+
+section#esp04 {
+    background-image: url(../imagens/Vegeta.png);
+    background-position: right center;
+}
+
+section#esp05 {
+    background-image: url(../imagens/Satoru\ Gojo.webp);
+    background-position: right center;
+}
+
+section#esp06 {
+    background-image: url(../imagens/Nezuko\ Kamado.jpg);
+    background-position: right center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
