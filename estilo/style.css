@@ -111,7 +111,7 @@ section#nor03 {
 
 section#nor04 {
     background-image: url(../imagens/Silvers\ Rayleigh.jpg);
-    background-position: left center;
+    background-position: center center;
 }
 
 section#nor05 {
@@ -150,8 +150,8 @@ section#esp05 {
 }
 
 section#esp06 {
-    background-image: url(../imagens/Nezuko\ Kamado.webp);
-    background-position: right top;
+    background-image: url(../imagens/Nezuko\ Kamado.jpg);
+    background-position: center top;
 }
 
 footer {
